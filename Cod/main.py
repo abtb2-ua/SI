@@ -128,7 +128,7 @@ def main():
                 game_over=True
             if event.type==pygame.MOUSEBUTTONUP:                
                 #obtener posición                               
-                #pos=pygame.mouse.get_pos()
+                pos=pygame.mouse.get_pos()
                 if pulsaBoton(pos, botLoad):                                      
                     tablero=Tablero(file)
                     copTab=copy.deepcopy(tablero)

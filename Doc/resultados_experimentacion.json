@@ -1,0 +1,125 @@
+[
+  {
+    "archivo": "m1.txt",
+    "celdas_fijas": 30,
+    "celdas_vacias": 51,
+    "experimentos": {
+      "BT_sin_recorte": {
+        "recursiones": 4209,
+        "asignaciones": 37652,
+        "tiempo": 0.3810849189758301
+      },
+      "BT_con_recorte": {
+        "recursiones": 4209,
+        "asignaciones": 13085,
+        "tiempo": 0.16914010047912598
+      },
+      "FC_sin_recorte": {
+        "recursiones": 4209,
+        "asignaciones": 18092,
+        "tiempo": 0.273029088973999
+      },
+      "FC_con_recorte": {
+        "recursiones": 334,
+        "asignaciones": 516,
+        "tiempo": 0.010248899459838867
+      },
+      "AC3_BT": {
+        "tiempo_ac3": 0.0014040470123291016,
+        "tiempo_bt": 0.0012159347534179688,
+        "tiempo_total": 0.0026199817657470703,
+        "recursiones": 52,
+        "asignaciones": 51
+      },
+      "AC3_FC": {
+        "tiempo_ac3": 0.0013852119445800781,
+        "tiempo_fc": 0.0012557506561279297,
+        "tiempo_total": 0.002640962600708008,
+        "recursiones": 52,
+        "asignaciones": 51
+      }
+    }
+  },
+  {
+    "archivo": "m2.txt",
+    "celdas_fijas": 63,
+    "celdas_vacias": 18,
+    "experimentos": {
+      "BT_sin_recorte": {
+        "recursiones": 118,
+        "asignaciones": 1010,
+        "tiempo": 0.010107278823852539
+      },
+      "BT_con_recorte": {
+        "recursiones": 118,
+        "asignaciones": 255,
+        "tiempo": 0.0038251876831054688
+      },
+      "FC_sin_recorte": {
+        "recursiones": 118,
+        "asignaciones": 741,
+        "tiempo": 0.008831024169921875
+      },
+      "FC_con_recorte": {
+        "recursiones": 82,
+        "asignaciones": 98,
+        "tiempo": 0.0022220611572265625
+      },
+      "AC3_BT": {
+        "tiempo_ac3": 0.00020360946655273438,
+        "tiempo_bt": 0.0038230419158935547,
+        "tiempo_total": 0.004026651382446289,
+        "recursiones": 118,
+        "asignaciones": 255
+      },
+      "AC3_FC": {
+        "tiempo_ac3": 0.0001900196075439453,
+        "tiempo_fc": 0.002273082733154297,
+        "tiempo_total": 0.002463102340698242,
+        "recursiones": 82,
+        "asignaciones": 98
+      }
+    }
+  },
+  {
+    "archivo": "m4.txt",
+    "celdas_fijas": 23,
+    "celdas_vacias": 58,
+    "experimentos": {
+      "BT_sin_recorte": {
+        "recursiones": 879418,
+        "asignaciones": 7914530,
+        "tiempo": 83.7402868270874
+      },
+      "BT_con_recorte": {
+        "recursiones": 879418,
+        "asignaciones": 3563873,
+        "tiempo": 43.64312386512756
+      },
+      "FC_sin_recorte": {
+        "recursiones": 850980,
+        "asignaciones": 2568163,
+        "tiempo": 43.206608057022095
+      },
+      "FC_con_recorte": {
+        "recursiones": 137709,
+        "asignaciones": 213850,
+        "tiempo": 4.498517990112305
+      },
+      "AC3_BT": {
+        "tiempo_ac3": 0.0019083023071289062,
+        "tiempo_bt": 42.05105900764465,
+        "tiempo_total": 42.05296730995178,
+        "recursiones": 879418,
+        "asignaciones": 3563873
+      },
+      "AC3_FC": {
+        "tiempo_ac3": 0.0007050037384033203,
+        "tiempo_fc": 4.393628835678101,
+        "tiempo_total": 4.394333839416504,
+        "recursiones": 137709,
+        "asignaciones": 213850
+      }
+    }
+  }
+]
